@@ -16,6 +16,11 @@ produtos: List[Dict[str, any]] = [
         "id": 3,
         "nome":"Mesa",
         "preco": 1.00
+    },
+    {
+        "id": 4,
+        "nome": "Fone",
+        "preco": 2.00
     }
 
 ]
