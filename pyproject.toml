@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "api-workshop"
+version = "0.1.0"
+description = "Sample Project using FastAPI"
+authors = ["Bruno Gomes de Almeida - BGO <bruno.gomes@iteris.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+ignr = "^2.2"
+pipx = "^1.4.3"
+pytest = "^7.4.4"
+httpx = "^0.26.0"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
