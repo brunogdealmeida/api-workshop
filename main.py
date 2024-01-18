@@ -19,7 +19,7 @@ app = FastAPI()
 
 @app.get("/") #Recebe requisições Get
 def hello_world():
-    return {"Hello": "World"}
+    return {"Hello": "everybody"}
 
 @app.get("/produtos")
 def list_products():
