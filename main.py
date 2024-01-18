@@ -22,7 +22,6 @@ produtos: List[Dict[str, any]] = [
         "nome": "Fone",
         "preco": 2.00
     }
-
 ]
 
 app = FastAPI()

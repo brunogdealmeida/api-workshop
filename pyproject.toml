@@ -14,6 +14,7 @@ pipx = "^1.4.3"
 pytest = "^7.4.4"
 httpx = "^0.26.0"
 pandas = "^2.1.4"
+anyio = "^4.2.0"
 
 
 [build-system]
