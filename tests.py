@@ -11,7 +11,7 @@ def test_hello_world():
 
 def test_hello_world_json():
     response = client.get("/")
-    assert response.json() == {"Hello": "World"}
+    assert response.json() == {"Hello": "everybody"}
 
 def test_list_products():
     response = client.get("/produtos")
