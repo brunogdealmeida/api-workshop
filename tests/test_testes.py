@@ -19,4 +19,4 @@ def test_list_products():
 
 def test_lenght_list_products():
     response = client.get("/produtos")
-    assert len(response.json()) == 2
+    assert len(response.json()) == 4
